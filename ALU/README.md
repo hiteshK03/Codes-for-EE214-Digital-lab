@@ -1,9 +1,18 @@
-# 4-to-1 Multiplexer
+# ALU
 
-This is the VHDL code for the design of a 4-to-1 multiplexer which consists of four single-bit data input lines, two select lines and a single output line.
+This is the VHDL code for the design of an Arithmetic Logic Unit capable of performing addition and multiplication of two 8-bit input giving output as the 8-LSBs of the answer of that operation.\\
 
-![mux_rtlviewer](https://user-images.githubusercontent.com/45922320/74584132-defda200-4ff4-11ea-9f0c-8171ab2d2317.png)
+Plus, it can left-shift and right-shift a 8-bit input with any amout specified by the other input of 8-bit, giving the output as the 8-LSBs of the shifted number.\\
 
+Finally, 32-to-8 multiplexer decides according to the opcode (select lines) as to which operation is to be performed.\\
+\\
+Below is the superficial design of ALU.\\
+
+![alu](https://user-images.githubusercontent.com/45922320/74584348-68ae6f00-4ff7-11ea-963b-c098aa8bbb63.png)
+![alu_in](https://user-images.githubusercontent.com/45922320/74584351-69df9c00-4ff7-11ea-951c-096dbc327bb8.png)
+
+
+The design of each unit is present [here](https://github.com/v1an1/Codes-for-EE214-Digital-lab/tree/master/ALU/img)
 
 ### Dependencies
 
