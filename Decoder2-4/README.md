@@ -1,4 +1,4 @@
-# Decoder2-4
+# 2-to-4 Decoder
 
 This is the VHDL code for the design of a 2-to-4 binary decoder that takes 2 binary inputs and decodes them into one of 4 outputs.
 
