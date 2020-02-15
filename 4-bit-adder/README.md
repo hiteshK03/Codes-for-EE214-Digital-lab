@@ -2,7 +2,7 @@
 
 This is the VHDL code for the design of an adder, adding two inputs of four bits each.
 
-<img src="/4_bit_rltViewer.png" width="850px" height="370px"/>
+<img src="./4_bit_rltViewer.png" width="850px" height="370px"/>
 
 
 ### Dependencies
