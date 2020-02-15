@@ -1,6 +1,6 @@
 # Decoder2-4
 
-This is the VHDL code for the design of an adder, adding two inputs of four bits each.
+This is the VHDL code for the design of a 2-to-4 binary decoder that takes 2 binary inputs and decodes them into one of 4 outputs.
 
 ![decoder_rtlviewer](https://user-images.githubusercontent.com/45922320/74584009-72ce6e80-4ff3-11ea-8cdf-2ae072543b5d.png)
 
