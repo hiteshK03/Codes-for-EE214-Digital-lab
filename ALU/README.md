@@ -1,12 +1,12 @@
 # ALU
 
-This is the VHDL code for the design of an Arithmetic Logic Unit capable of performing addition and multiplication of two 8-bit input giving output as the 8-LSBs of the answer of that operation.\
+This is the VHDL code for the design of an Arithmetic Logic Unit capable of performing addition and multiplication of two 8-bit input giving output as the 8-LSBs of the answer of that operation.  
 
-Plus, it can left-shift and right-shift a 8-bit input with any amout specified by the other input of 8-bit, giving the output as the 8-LSBs of the shifted number.\
+Plus, it can left-shift and right-shift a 8-bit input with any amout specified by the other input of 8-bit, giving the output as the 8-LSBs of the shifted number.  
 
-Finally, 32-to-8 multiplexer decides according to the opcode (select lines) as to which operation is to be performed.\
+Finally, 32-to-8 multiplexer decides according to the opcode (select lines) as to which operation is to be performed.  
 
-Below is the superficial design of ALU.\
+Below is the superficial design of ALU.  
 
 ![alu](https://user-images.githubusercontent.com/45922320/74584348-68ae6f00-4ff7-11ea-963b-c098aa8bbb63.png)
 ![alu_in](https://user-images.githubusercontent.com/45922320/74584351-69df9c00-4ff7-11ea-951c-096dbc327bb8.png)
